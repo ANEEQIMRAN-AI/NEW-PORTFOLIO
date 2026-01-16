@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MEP Project Manager</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Google Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <div class="logo">Imran Siddique Chishti</div>
+  <nav>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#competencies">Core Competencies</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <span class="material-icons menu" onclick="toggleMenu()">menu</span>
+  </nav>
+</header>
+
+<!-- HERO -->
+<!-- HERO -->
+<section id="home" class="hero">
+
+  <div class="hero-profile">
+    <img src="images/CH.jpg" alt="Imran Chishti Profile Photo">
+  </div>
+
+  <h1>Imran Siddique Chishti</h1>
+  <h2>MEP Project & Maintenance Manager</h2>
+  <p>29+ Years of Expertise in Electrical, Mechanical & Building Services</p>
+
+  <!-- Download CV Button -->
+  <a href="docs/IMRAN-SIDDIQUE.pdf" download class="btn-download">
+    Download CV
+  </a>
+
+</section>
+
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>
+    Senior MEP and Maintenance Project Manager with <strong>29 years</strong> of experience delivering electrical, mechanical, and
+building services solutions for large-scale commercial, residential, industrial, and high-rise developments. Proven
+expertise in MEP project execution, preventive maintenance strategies, asset reliability, team leadership, and
+regulatory compliance. Strong track record of improving system performance, reducing downtime, controlling
+costs, and leading multidisciplinary teams across Pakistan and the Middle East
+  </p>
+</section>
+
+
+<!-- CORE COMPETENCIES -->
+<section id="competencies" class="section">
+  <h2>Core Competencies</h2>
+
+  <div class="competencies-grid">
+
+    <div class="competency-card">
+      <span class="material-icons">engineering</span>
+      <h3>MEP Project & Maintenance Management</h3>
+      <p>Planning, execution, and oversight of electrical, mechanical, and building services projects.</p>
+    </div>
+
+    <div class="competency-card">
+      <span class="material-icons">build_circle</span>
+      <h3>Preventive & Corrective Maintenance</h3>
+      <p>Design and implementation of maintenance programs to optimize asset reliability and reduce downtime.</p>
+    </div>
+
+    <div class="competency-card">
+      <span class="material-icons">verified</span>
+      <h3>Testing, Commissioning & QA/QC</h3>
+      <p>Ensure compliance with specifications, standards, and safety regulations across all projects.</p>
+    </div>
+
+    <div class="competency-card">
+      <span class="material-icons">groups</span>
+      <h3>Vendor & Contractor Management</h3>
+      <p>Coordination, monitoring, and evaluation of contractors and service providers for project success.</p>
+    </div>
+
+    <div class="competency-card">
+      <span class="material-icons">security</span>
+      <h3>Electrical Safety & Regulatory Compliance</h3>
+      <p>Ensuring all electrical systems meet safety codes and regulatory standards.</p>
+    </div>
+
+    <div class="competency-card">
+      <span class="material-icons">precision_manufacturing</span>
+      <h3>Technical & Professional Expertise</h3>
+      <p>Electrical Systems (LV/MV), HVAC, Plumbing, Building Services, Asset Reliability & Risk Management.</p>
+    </div>
+
+    <div class="competency-card">
+      <span class="material-icons">account_balance_wallet</span>
+      <h3>Budgeting & Cost Control</h3>
+      <p>BOQ verification, cost optimization, and financial management of projects and maintenance operations.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section dark">
+  <h2>Technical Expertise</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <span class="material-icons">bolt</span>
+      <h3>Electrical & MEP</h3>
+      <p>LV/MV Systems, Power Distribution, Transformers, DG Sets, UPS, MCC, ATS, AMF Panels</p>
+    </div>
+
+    <div class="skill-card">
+      <span class="material-icons">apartment</span>
+      <h3>Building Services</h3>
+      <p>HVAC Systems, Plumbing, Mechanical Utilities, Facility Operations</p>
+    </div>
+
+    <div class="skill-card">
+      <span class="material-icons">engineering</span>
+      <h3>Maintenance</h3>
+      <p>Preventive & Corrective Maintenance, Troubleshooting, Reliability Management</p>
+    </div>
+
+    <div class="skill-card">
+      <span class="material-icons">assignment</span>
+      <h3>Project Management</h3>
+      <p>Execution Supervision, BOQ Verification, Drawings Review, Testing & Commissioning</p>
+    </div>
+
+    <div class="skill-card">
+      <span class="material-icons">verified</span>
+      <h3>QA / QC & Safety</h3>
+      <p>Electrical Safety Standards, Quality Assurance, Risk & Compliance Management</p>
+    </div>
+
+    <div class="skill-card">
+      <span class="material-icons">computer</span>
+      <h3>Tools</h3>
+      <p>MS Excel, Word, PowerPoint, Technical Documentation</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECT SHOWCASE -->
+<section id="projects" class="section">
+  <h2>Major Project Showcase</h2>
+
+  <div class="projects-grid">
+
+    <!-- Shahbaz Air Base -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/shahbazairbase.jfif" alt="Shahbaz Air Base PAF">
+      <div class="project-info">
+        <h3>Shahbaz Air Base (PAF)</h3>
+        <p>
+          Role: Electrical Inspector<br>
+          Scope: Power Distribution, Generators, UPS, Transformers, MCC, ATS, AMF Panels, Lighting<br>
+          Organization: Kashif Aslam & Associates
+        </p>
+      </div>
+    </div>
+
+    <!-- Emporium Mall -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/emporiummall.jfif" alt="Emporium Mall Lahore">
+      <div class="project-info">
+        <h3>Emporium Mall</h3>
+        <p>
+          Role: Construction / Electrical Project Management<br>
+          Scope: Large-scale Commercial Electrical & MEP Systems
+        </p>
+      </div>
+    </div>
+
+    <!-- Packages Mall -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/packagesmall.jfif" alt="Packages Mall Lahore">
+      <div class="project-info">
+        <h3>Packages Mall</h3>
+        <p>
+          Role: Construction Project Manager<br>
+          Scope: Electrical Systems, Power Distribution, Lighting, Testing & Commissioning
+        </p>
+      </div>
+    </div>
+
+    <!-- High Q Tower -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/High.jfif" alt="High Q Tower Lahore">
+      <div class="project-info">
+        <h3>High Q Tower</h3>
+        <p>
+          Role: Project Manager – MEP Works<br>
+          Scope: Complete Electrical, HVAC & Mechanical Systems
+        </p>
+      </div>
+    </div>
+
+    <!-- Lahore Airport Parking -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/airport.jfif" alt="Lahore Airport Parking">
+      <div class="project-info">
+        <h3>Lahore Airport Parking</h3>
+        <p>
+          Role: Construction Project Manager<br>
+          Scope: Electrical Infrastructure, Lighting & Power Distribution
+        </p>
+      </div>
+    </div>
+
+    <!-- GHQ Rawalpindi -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/ghq.jfif" alt="GHQ Rawalpindi">
+      <div class="project-info">
+        <h3>GHQ Rawalpindi</h3>
+        <p>
+          Role: Electrical Project Supervision<br>
+          Scope: Power Distribution, QA/QC & Commissioning
+        </p>
+      </div>
+    </div>
+
+    <!-- FFBL Head Office -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/fbpl.jfif" alt="FFBL Head Office Islamabad">
+      <div class="project-info">
+        <h3>FFBL Head Office</h3>
+        <p>
+          Location: Islamabad<br>
+          Role: Construction Project Manager<br>
+          Scope: Electrical & Building Services Systems
+        </p>
+      </div>
+    </div>
+
+    <!-- Nishat Suites -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/nishat.jfif" alt="Nishat Suites Lahore">
+      <div class="project-info">
+        <h3>Nishat Suites</h3>
+        <p>
+          Role: Construction Project Manager<br>
+          Scope: Electrical Installations & MEP Coordination
+        </p>
+      </div>
+    </div>
+
+    <!-- PC Hotel Parking -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/pc.jfif" alt="PC Hotel Parking Lahore">
+      <div class="project-info">
+        <h3>PC Hotel Parking</h3>
+        <p>
+          Role: Construction Project Manager<br>
+          Scope: Electrical Works, Lighting & Power Systems
+        </p>
+      </div>
+    </div>
+
+    <!-- Nawaz Sharif Residency -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/nawaz.webp" alt="Nawaz Sharif Residency Changla Gali">
+      <div class="project-info">
+        <h3>Nawaz Sharif Residency</h3>
+        <p>
+          Location: Changla Gali<br>
+          Role: Electrical Project Supervision<br>
+          Scope: Power Distribution & Building Electrical Systems
+        </p>
+      </div>
+    </div>
+
+    <!-- Park Lane Tower -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/parklahore.jfif" alt="Park Lane Tower Islamabad">
+      <div class="project-info">
+        <h3>Park Lane Tower</h3>
+        <p>
+          Role: Construction Project Manager<br>
+          Scope: Electrical Systems & MEP Coordination
+        </p>
+      </div>
+    </div>
+
+    <!-- Honda Atlas -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/honda.jfif" alt="Honda Atlas Cars Pakistan">
+      <div class="project-info">
+        <h3>Honda Atlas Cars (Pakistan)</h3>
+        <p>
+          Role: Project Management Supervisor<br>
+          Scope: 3.3KV System, Paint Shop & Welding Shop Expansion
+        </p>
+      </div>
+    </div>
+
+    <!-- Flying Paper Industries -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/paper.jfif" alt="Flying Paper Industries">
+      <div class="project-info">
+        <h3>Flying Paper Industries</h3>
+        <p>
+          Role: Senior Electrical Technician<br>
+          Scope: Straw Pulp Plant, Motors, MCC, Transformers, Maintenance
+        </p>
+      </div>
+    </div>
+
+     <!-- Much More -->
+    <div class="project-card" onclick="openModal(this)">
+      <img src="images/projects.png" alt="Much more">
+      <div class="project-info">
+        <h3>So On...</h3>
+        <p>
+          Role: Construction / Electrical Project Management<br>
+          Scope: Large-scale Commercial Electrical & MEP Systems
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2>Professional Experience</h2>
+
+  <div class="timeline">
+
+    <!-- Waqar Qadeer Developers -->
+    <div class="timeline-item">
+      <h3>Maintenance Project Manager</h3>
+      <span>Waqar Qadeer Developers | Aug 2024 – Dec 2025 | Pakistan</span>
+      <ul>
+        <li> Led multi-site maintenance projects for commercial and residential assets, improving system reliability,ensuring 100% safety compliance, and minimizing operational disruptions.</li>
+        <li>Designed and executed preventive maintenance programs that reduced unplanned breakdowns, optimized maintenance costs, and extended equipment life cycles.</li>
+        <li>Managed maintenance budgets, vendor contracts, and service providers across multiple sites, ensuring compliance with electrical and statutory regulations and reducing overspend</li>
+        <li>Led and mentored multidisciplinary maintenance teams, improving task completion timelines, accountability,and overall operational performance.</li>
+      
+      </ul>
+    </div>
+
+    <!-- AAA Partnership -->
+    <div class="timeline-item">
+      <h3>Maintenance Manager</h3>
+      <span>AAA Partnership Pvt. Ltd. | Jan 2022 – Jul 2024 | Lahore, Pakistan</span>
+      <ul>
+        <li>Directed comprehensive maintenance operations for HVAC, electrical, plumbing, and building services across multiple facilities, enhancing service reliability.</li>
+        <li>Implemented preventive maintenance schedules that improved asset uptime and reduced emergency repairs by 25%.</li>
+        <li>Controlled multi-site maintenance budgets and coordinated contractors, ensuring safety compliance and minimizing operational delays.</li>
+        <li>Led maintenance teams while streamlining documentation processes, improving operational efficiency and performance tracking.</li>
+      
+      </ul>
+    </div>
+
+    <!-- High Q Tower -->
+    <div class="timeline-item">
+      <h3>Project Manager – MEP Works (High Q Tower)</h3>
+      <span>Waqar Qadeer Developers | Dec 2019 – Dec 2021 | Lahore, Pakistan</span>
+      <ul>
+        <li>Managed full-cycle MEP works for a high-rise commercial tower, ensuring on-time delivery and compliance with project specifications.</li>
+        <li>Coordinated consultants, contractors, and site teams, improving project workflow efficiency and reducing construction delays.</li>
+        <li>Oversaw installation, testing, and commissioning of electrical, HVAC, and mechanical systems, ensuring full compliance with safety regulations and quality standards.</li>
+      
+     
+      </ul>
+    </div>
+
+    <!-- MEP Solutions -->
+    <div class="timeline-item">
+      <h3>Construction Project Manager</h3>
+      <span>MEP Solutions (Pvt.) Ltd. | Jun 2013 – Jun 2019 | Lahore, Pakistan</span>
+      <ul>
+        <li> Led execution of large-scale electrical and MEP works across multiple high-profile commercial and infrastructure projects, delivering milestones on schedule and within quality standards.</li>
+        <li>Coordinated site execution teams, procurement, and shop drawing approvals, improving project workflow and reducing rework by 20%.</li>
+        <li>Provided technical leadership to project teams, ensuring timely milestone completion, quality compliance, and safety adherence.</li>
+        <li><strong>Key Projects:</strong> FFBL Head Office Islamabad, Nishat Suites Lahore, PC Hotel Parking Lahore, Nawaz Sharif Residency Changla Gali, GHQ Rawalpindi, Lahore Airport Parking, Park Lane Tower Islamabad, Packages Mall Lahore, and others.</li>
+      </ul>
+    </div>
+
+    <!-- Kashif Aslam -->
+    <div class="timeline-item">
+      <h3>Electrical Inspector</h3>
+      <span>Kashif Aslam and Associates Pvt. Ltd. | Mar 2009 – May 2013 | Jacobabad, Sindh</span>
+      <ul>
+        <li> Supervised testing and commissioning of power distribution systems, generators, UPS, transformers, MCC, ATS, AMF panels, and lighting systems at Shahbaz Air Base (PAF), ensuring full compliance with technical standards.</li>
+        <li>Verified project execution against BOQ and shop drawings, reducing quality deviations and ensuring timely approvals.</li>
+      </ul>
+    </div>
+
+    <!-- ME Consult -->
+    <div class="timeline-item">
+      <h3>Electrical Inspector</h3>
+      <span>ME Consult (Pvt.) Ltd. | Nov 2006 – Feb 2009 | Lahore, Pakistan</span>
+      <ul>
+        <li>Supervised electrical works for residential, commercial, and industrial projects, ensuring compliance with technical drawings and quality standards.</li>
+        <li>Conducted quality control inspections that improved system reliability and reduced rework by 15%.</li>
+      </ul>
+    </div>
+
+    <!-- Honda Atlas -->
+    <div class="timeline-item">
+      <h3>Project Management Supervisor</h3>
+      <span>Honda Atlas Cars (Pakistan) Ltd. | Feb 2006 – Oct 2006 | Lahore, Pakistan</span>
+      <ul>
+        <li> Supervised electrical works for a fast-track Hydraulic Press Shop (3.3KV system), ensuring timely project completion and compliance with safety regulations.</li>
+        <li> Managed installation and commissioning of transformers, welding systems, electrical panels, and lighting,improving operational readiness and reducing downtime.</li>
+      </ul>
+    </div>
+
+    <!-- Almeer Kuwait -->
+    <div class="timeline-item">
+      <h3>Electrical Supervisor</h3>
+      <span>Almeer Technical Services Co. W.L.L | Mar 2001 – Nov 2005 | Kuwait</span>
+      <ul>
+        <li>Supervised installation, testing, and commissioning of electrical systems for commercial and industrial projects, ensuring QA/QC compliance and reducing project errors.</li>
+        <li>Verified execution against BOQ and technical drawings, improving overall project accuracy and adherence to specifications.</li>
+      </ul>
+    </div>
+
+    <!-- Flying Paper -->
+    <div class="timeline-item">
+      <h3>Senior Electrical Technician</h3>
+      <span>Flying Paper Industries Ltd. | Aug 1995 – Jan 2001 | Lahore, Pakistan</span>
+      <ul>
+        <li> Installed and commissioned electrical systems for a Straw Pulp Plant, including motors, transformers, MCC,LT panels, cabling, and industrial lighting, improving plant reliability and operational efficiency.</li>
+        <li> Supported plant electrical maintenance and continuous operations, reducing unplanned downtime and enhancing production stability.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section dark">
+  <h2>Contact</h2>
+
+  <div class="contact-info">
+    <p><span class="material-icons">location_on</span> Lahore, Pakistan</p>
+    <p><span class="material-icons">call</span> +92 300 6694708</p>
+    <p><span class="material-icons">email</span> imranchishti75@gmail.com</p>
+    <p>
+      <span class="material-icons">business</span>
+      <a href="https://www.linkedin.com/in/imran-chishti-a57b6231b/" target="_blank">
+        LinkedIn
+      </a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Imran Chishti | Professional MEP Manager</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
